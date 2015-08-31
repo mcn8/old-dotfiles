@@ -11,9 +11,12 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 # for golang
 export GOPATH=$HOME/go
-export GOROOT=$/usr/local/opt/go/libexec/bin
-export PATH=$PATH:$GOROOT
 export PATH=$PATH:$GOPATH/bin
+
+# for android
+export PATH=$PATH:/Users/micks/Library/Android/sdk/platform-tools
+
+# other
 export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
 
 source $ZSH/oh-my-zsh.sh

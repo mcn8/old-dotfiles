@@ -39,6 +39,7 @@ brew tap homebrew/dupes
 brew tap caskroom/cask
 brew tap caskroom/versions
 brew install git
+brew install mercurial
 brew install z
 brew install coreutils 
 brew install findutils
@@ -75,6 +76,8 @@ brew cask install transmit
 brew cask install mailbox
 brew cask install sketch
 brew cask install appcleaner
+brew cask install the-unarchiver
+brew cask install spectacle
 
 echo "Checking for GOPATH"
 if [ -d $GOPATH ]; then
