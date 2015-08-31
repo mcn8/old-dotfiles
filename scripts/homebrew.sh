@@ -50,6 +50,17 @@ brew install mysql
 brew install brew-cask
 brew install ffmpeg
 
+# Couchdb stuff
+brew install autoconf
+brew install autoconf-archive
+brew install automake
+brew install libtool
+brew install erlang
+brew install icu4c
+brew install spidermonkey
+brew install curl
+brew install couchdb
+
 # Cask install some stuff globally
 brew cask install alfred
 brew cask install caffeine
