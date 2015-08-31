@@ -19,4 +19,6 @@ export PATH=$PATH:/Users/micks/Library/Android/sdk/platform-tools
 # other
 export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
 
+. `brew --prefix`/etc/profile.d/z.sh
+
 source $ZSH/oh-my-zsh.sh

@@ -5,6 +5,9 @@
     ~/.zshrc: 
       force: true
       path: zshrc
+    ~/.vimrc:
+      force: true
+      path: vimrc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
