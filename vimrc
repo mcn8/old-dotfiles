@@ -4,6 +4,9 @@ filetype off
 syntax on
 set showmatch
 set number
+set history=1000
+set undolevels=1000
+set title
 
 source ~/.vim/vundleConfig.vim
 
@@ -19,3 +22,5 @@ let g:UltiSnipsEditSplit="vertical"
 colorscheme molokai
 
 set backspace=indent,eol,start " backspace over everything in insert mode
+
+nmap <F8> :TagbarToggle<CR>

@@ -9,6 +9,8 @@ Plugin 'Shougo/neocomplete'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'tpope/vim-surround'
+Plugin 'majutsushi/tagbar'
 
 call vundle#end()
 filetype plugin indent on
