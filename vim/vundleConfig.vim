@@ -11,6 +11,8 @@ Plugin 'honza/vim-snippets'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'tpope/vim-surround'
 Plugin 'majutsushi/tagbar'
+Plugin 'itchyny/lightline.vim'
+Plugin 'Keithbsmiley/investigate.vim'
 
 call vundle#end()
 filetype plugin indent on

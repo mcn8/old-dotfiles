@@ -7,6 +7,7 @@ set number
 set history=1000
 set undolevels=1000
 set title
+set laststatus=2
 
 source ~/.vim/vundleConfig.vim
 
@@ -24,3 +25,6 @@ colorscheme molokai
 set backspace=indent,eol,start " backspace over everything in insert mode
 
 nmap <F8> :TagbarToggle<CR>
+
+let g:investigate_use_dash=1
+
