@@ -16,7 +16,10 @@ export PATH=$PATH:$GOPATH/bin
 # for android
 export PATH=$PATH:/Users/micks/Library/Android/sdk/platform-tools
 
-# other
-export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
-
 source $ZSH/oh-my-zsh.sh
+
+# other
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+
+# set git vim to brew's updated vim
+git config --global core.editor /usr/local/bin/vim

@@ -49,6 +49,8 @@ brew install redis
 brew install mysql
 brew install brew-cask
 brew install ffmpeg
+brew install vim --with-lua
+brew install figlet
 
 # Couchdb stuff
 brew install autoconf
