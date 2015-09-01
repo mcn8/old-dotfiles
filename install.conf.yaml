@@ -2,15 +2,22 @@
 
 - link:
     ~/.dotfiles: ''
+
     ~/.zshrc: 
       force: true
       path: zshrc
-    ~/.  - vimrc:
+
+    ~/.vimrc:
       force: true
       path: vimrc
+
     ~/.vim:
       force: true
       path: vim/
+
+    ~/.zsh:
+      force: true
+      path: zsh/
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

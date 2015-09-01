@@ -1,9 +1,10 @@
 export ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="robbyrussell"
+ZSH_THEME="sorin"
 export UPDATE_ZSH_DAYS=3
 ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
-plugins=(git z)
+plugins=(git z zsh-completions)
+autoload -U compinit && compinit
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
@@ -23,3 +24,5 @@ export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 
 # set git vim to brew's updated vim
 git config --global core.editor /usr/local/bin/vim
+
+source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

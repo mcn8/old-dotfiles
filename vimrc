@@ -8,6 +8,8 @@ set history=1000
 set undolevels=1000
 set title
 set laststatus=2
+set tabstop=4
+set shiftwidth=4
 
 source ~/.vim/vundleConfig.vim
 
