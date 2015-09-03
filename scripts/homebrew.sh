@@ -91,6 +91,8 @@ brew cask install sketch
 brew cask install appcleaner
 brew cask install the-unarchiver
 brew cask install spectacle
+brew cask install kodi
+brew cask install apache-couchdb
 
 echo "Checking for GOPATH"
 if [ -d $GOPATH ]; then
