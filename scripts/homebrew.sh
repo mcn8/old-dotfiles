@@ -93,6 +93,7 @@ brew cask install the-unarchiver
 brew cask install spectacle
 brew cask install kodi
 brew cask install apache-couchdb
+brew cask install intellij-idea-ce
 
 echo "Checking for GOPATH"
 if [ -d $GOPATH ]; then
