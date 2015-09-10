@@ -5,7 +5,16 @@ syntax on
 set showmatch
 set number
 set history=1000
+
+" persistent undo
+if !isdirectory($HOME."/.vim/undodir")
+	call mkdir($HOME."/.vim/undodir", "p")
+endif
+set undodir=$HOME/.vim/undodir
+set undofile
 set undolevels=1000
+set undoreload=10000
+
 set title
 set laststatus=2
 set tabstop=4
@@ -29,4 +38,5 @@ set backspace=indent,eol,start " backspace over everything in insert mode
 nmap <F8> :TagbarToggle<CR>
 
 let g:investigate_use_dash=1
+
 
