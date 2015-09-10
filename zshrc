@@ -17,6 +17,10 @@ export PATH=$PATH:$GOPATH/bin
 # for android
 export PATH=$PATH:/Users/micks/Library/Android/sdk/platform-tools
 
+# for jenv
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
 source $ZSH/oh-my-zsh.sh
 
 # other

@@ -51,6 +51,9 @@ brew install brew-cask
 brew install ffmpeg
 brew install vim --with-lua
 brew install figlet
+brew install jenv
+brew install rethinkdb
+brew install docker boot2docker
 
 # Couchdb stuff
 brew install autoconf
@@ -81,6 +84,7 @@ brew cask install spotify
 brew cask install sublime-text3
 brew cask install vlc
 brew cask install java
+brew cask install java7
 brew cask install skype
 brew cask install mou
 brew cask install dash
@@ -94,6 +98,11 @@ brew cask install spectacle
 brew cask install kodi
 brew cask install apache-couchdb
 brew cask install intellij-idea-ce
+brew cask install android-studio
+brew cask install authy-bluetooth
+brew cask install awareness
+brew cask install steam
+brew cask install virtualbox
 
 echo "Checking for GOPATH"
 if [ -d $GOPATH ]; then
