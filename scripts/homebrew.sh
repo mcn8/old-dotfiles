@@ -102,7 +102,7 @@ brew cask install android-studio
 brew cask install authy-bluetooth
 brew cask install awareness
 brew cask install steam
-brew cask install virtualbox
+brew cask install genymotion
 
 echo "Checking for GOPATH"
 if [ -d $GOPATH ]; then
