@@ -54,6 +54,7 @@ brew install figlet
 brew install jenv
 brew install rethinkdb
 brew install docker boot2docker
+brew install rabbitmq
 
 # Couchdb stuff
 brew install autoconf
@@ -99,7 +100,6 @@ brew cask install kodi
 brew cask install apache-couchdb
 brew cask install intellij-idea-ce
 brew cask install android-studio
-brew cask install authy-bluetooth
 brew cask install awareness
 brew cask install steam
 brew cask install genymotion
