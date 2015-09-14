@@ -55,6 +55,7 @@ brew install jenv
 brew install rethinkdb
 brew install docker boot2docker
 brew install rabbitmq
+brew install node
 
 # Couchdb stuff
 brew install autoconf
@@ -103,6 +104,7 @@ brew cask install android-studio
 brew cask install awareness
 brew cask install steam
 brew cask install genymotion
+brew cask install cyberduck
 
 echo "Checking for GOPATH"
 if [ -d $GOPATH ]; then
