@@ -105,6 +105,7 @@ brew cask install awareness
 brew cask install steam
 brew cask install genymotion
 brew cask install cyberduck
+brew cask install sophos-anti-virus-home-edition
 
 echo "Checking for GOPATH"
 if [ -d $GOPATH ]; then
