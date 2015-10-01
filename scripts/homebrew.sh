@@ -71,6 +71,8 @@ brew install couchdb
 # Cask install some stuff globally
 brew cask install alfred
 brew cask install caffeine
+brew cask install xquartz
+brew cask install wireshark
 brew cask install flux
 brew cask install virtualbox
 brew cask install google-chrome
@@ -106,6 +108,7 @@ brew cask install steam
 brew cask install genymotion
 brew cask install cyberduck
 brew cask install sophos-anti-virus-home-edition
+brew cask install vuze
 
 echo "Checking for GOPATH"
 if [ -d $GOPATH ]; then

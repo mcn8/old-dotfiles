@@ -6,7 +6,7 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(git z zsh-completions)
 autoload -U compinit && compinit
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin"
 
 # User configuration
 
