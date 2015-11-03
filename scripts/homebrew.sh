@@ -38,6 +38,8 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 brew tap homebrew/dupes
 brew tap caskroom/cask
 brew tap caskroom/versions
+brew tap homebrew/science
+brew tap totakke/openni
 brew install git
 brew install mercurial
 brew install z
@@ -56,6 +58,13 @@ brew install rethinkdb
 brew install docker boot2docker
 brew install rabbitmq
 brew install node
+
+# Kinect
+brew install libtool
+brew install libusb
+brew install openni
+brew install sensor-kinect
+brew install nite
 
 # Couchdb stuff
 brew install autoconf
@@ -94,7 +103,6 @@ brew cask install mou
 brew cask install dash
 brew cask install screenflick
 brew cask install transmit
-brew cask install mailbox
 brew cask install sketch
 brew cask install appcleaner
 brew cask install the-unarchiver
