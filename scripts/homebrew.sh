@@ -47,46 +47,22 @@ brew install coreutils
 brew install findutils
 brew install openssl
 brew install wget
-brew install redis
 brew install mysql
 brew install brew-cask
 brew install ffmpeg
 brew install vim --with-lua
 brew install figlet
 brew install jenv
-brew install rethinkdb
 brew install docker boot2docker
-brew install rabbitmq
 brew install node
-
-# Kinect
-brew install libtool
-brew install libusb
-brew install openni
-brew install sensor-kinect
-brew install nite
-
-# Couchdb stuff
-brew install autoconf
-brew install autoconf-archive
-brew install automake
-brew install libtool
-brew install erlang
-brew install icu4c
-brew install spidermonkey
-brew install curl
-brew install couchdb
 
 # Cask install some stuff globally
 brew cask install alfred
 brew cask install caffeine
-brew cask install xquartz
-brew cask install wireshark
 brew cask install flux
 brew cask install virtualbox
 brew cask install google-chrome
 brew cask install iterm2
-brew cask install nvalt
 brew cask install slack
 brew cask install atom
 brew cask install dropbox
@@ -108,10 +84,8 @@ brew cask install appcleaner
 brew cask install the-unarchiver
 brew cask install spectacle
 brew cask install kodi
-brew cask install apache-couchdb
 brew cask install intellij-idea-ce
 brew cask install android-studio
-brew cask install awareness
 brew cask install steam
 brew cask install genymotion
 brew cask install cyberduck
