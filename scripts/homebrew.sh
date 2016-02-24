@@ -55,6 +55,7 @@ brew install figlet
 brew install jenv
 brew install docker boot2docker
 brew install node
+brew install mongodb
 
 # Cask install some stuff globally
 brew cask install alfred
